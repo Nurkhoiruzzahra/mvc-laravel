@@ -15,7 +15,7 @@ class AuthController extends Controller
     {
         $username = $request->name;
         $lname = $request->lname;
-        return view('users.welcome', compact('username','lname'));
+        return view('welcome1.welcome', compact('username','lname'));
     }
 
 }
